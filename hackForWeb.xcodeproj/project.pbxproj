@@ -14,6 +14,13 @@
 		7F93DB0D1DB68041003DAC4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F93DB0B1DB68041003DAC4D /* LaunchScreen.storyboard */; };
 		7F93DB181DB68041003DAC4D /* hackForWebTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F93DB171DB68041003DAC4D /* hackForWebTests.swift */; };
 		7F93DB231DB68042003DAC4D /* hackForWebUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F93DB221DB68042003DAC4D /* hackForWebUITests.swift */; };
+		7F93DB311DB68656003DAC4D /* StepOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F93DB301DB68656003DAC4D /* StepOneViewController.swift */; };
+		7F93DB331DB68A73003DAC4D /* StepTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F93DB321DB68A73003DAC4D /* StepTwoViewController.swift */; };
+		7F93DB351DB68D2E003DAC4D /* StepThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F93DB341DB68D2E003DAC4D /* StepThirdViewController.swift */; };
+		7F93DB371DB68FC8003DAC4D /* StepFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F93DB361DB68FC8003DAC4D /* StepFourViewController.swift */; };
+		7F93DB391DB692AB003DAC4D /* StepFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F93DB381DB692AB003DAC4D /* StepFiveViewController.swift */; };
+		7F93DB3B1DB693FC003DAC4D /* StepSixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F93DB3A1DB693FC003DAC4D /* StepSixViewController.swift */; };
+		7F93DB3D1DB6962C003DAC4D /* StepSevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F93DB3C1DB6962C003DAC4D /* StepSevenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		7F93DB1E1DB68042003DAC4D /* hackForWebUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackForWebUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F93DB221DB68042003DAC4D /* hackForWebUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackForWebUITests.swift; sourceTree = "<group>"; };
 		7F93DB241DB68042003DAC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F93DB301DB68656003DAC4D /* StepOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepOneViewController.swift; sourceTree = "<group>"; };
+		7F93DB321DB68A73003DAC4D /* StepTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepTwoViewController.swift; sourceTree = "<group>"; };
+		7F93DB341DB68D2E003DAC4D /* StepThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepThirdViewController.swift; sourceTree = "<group>"; };
+		7F93DB361DB68FC8003DAC4D /* StepFourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepFourViewController.swift; sourceTree = "<group>"; };
+		7F93DB381DB692AB003DAC4D /* StepFiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepFiveViewController.swift; sourceTree = "<group>"; };
+		7F93DB3A1DB693FC003DAC4D /* StepSixViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepSixViewController.swift; sourceTree = "<group>"; };
+		7F93DB3C1DB6962C003DAC4D /* StepSevenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepSevenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +117,13 @@
 				7F93DB091DB68041003DAC4D /* Assets.xcassets */,
 				7F93DB0B1DB68041003DAC4D /* LaunchScreen.storyboard */,
 				7F93DB0E1DB68041003DAC4D /* Info.plist */,
+				7F93DB301DB68656003DAC4D /* StepOneViewController.swift */,
+				7F93DB321DB68A73003DAC4D /* StepTwoViewController.swift */,
+				7F93DB341DB68D2E003DAC4D /* StepThirdViewController.swift */,
+				7F93DB361DB68FC8003DAC4D /* StepFourViewController.swift */,
+				7F93DB381DB692AB003DAC4D /* StepFiveViewController.swift */,
+				7F93DB3A1DB693FC003DAC4D /* StepSixViewController.swift */,
+				7F93DB3C1DB6962C003DAC4D /* StepSevenViewController.swift */,
 			);
 			path = hackForWeb;
 			sourceTree = "<group>";
@@ -259,8 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F93DB311DB68656003DAC4D /* StepOneViewController.swift in Sources */,
 				7F93DB051DB68041003DAC4D /* ViewController.swift in Sources */,
+				7F93DB371DB68FC8003DAC4D /* StepFourViewController.swift in Sources */,
 				7F93DB031DB68041003DAC4D /* AppDelegate.swift in Sources */,
+				7F93DB3D1DB6962C003DAC4D /* StepSevenViewController.swift in Sources */,
+				7F93DB331DB68A73003DAC4D /* StepTwoViewController.swift in Sources */,
+				7F93DB3B1DB693FC003DAC4D /* StepSixViewController.swift in Sources */,
+				7F93DB351DB68D2E003DAC4D /* StepThirdViewController.swift in Sources */,
+				7F93DB391DB692AB003DAC4D /* StepFiveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
