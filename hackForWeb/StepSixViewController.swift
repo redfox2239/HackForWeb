@@ -39,7 +39,7 @@ class StepSixViewController: UIViewController,UIWebViewDelegate {
         }
         // 読み込み完了したwebページのURLが"https://www.j-platpat.inpit.go.jp/web/tokujitsu/tkbs/TKBS_GM301_Detailed.action"のとき
         else if webView.request?.url == URL(string: "https://www.j-platpat.inpit.go.jp/web/tokujitsu/tkbs/TKBS_GM301_Detailed.action") {
-            webView.stringByEvaluatingJavaScript(from: "$('.contents').find('a')[4].click()")
+            webView.stringByEvaluatingJavaScript(from: "$('.contents').find('a')[5].click()")
         }
         // 読み込み完了したwebページのURLが"https://www.j-platpat.inpit.go.jp/web/tokujitsu/tkbs/TKBS_GM401_ToImage.action"のとき
         // （「イメージ表示」ボタンをクリックしたあと読み込まれるURLは、"https://www.j-platpat.inpit.go.jp/web/tokujitsu/tkbs/TKBS_GM401_ToImage.action"）

@@ -41,7 +41,7 @@ class StepFiveViewController: UIViewController,UIWebViewDelegate {
         // （公開番号のリンクをクリックしたあと読み込まれるURLは、"https://www.j-platpat.inpit.go.jp/web/tokujitsu/tkbs/TKBS_GM301_Detailed.action"）
         else if webView.request?.url == URL(string: "https://www.j-platpat.inpit.go.jp/web/tokujitsu/tkbs/TKBS_GM301_Detailed.action") {
             // 「イメージ表示」ボタンを押す（webView内でJavaScriptを実行させる）
-            webView.stringByEvaluatingJavaScript(from: "$('.contents').find('a')[4].click()")
+            webView.stringByEvaluatingJavaScript(from: "$('.contents').find('a')[5].click()")
         }
     }
     
